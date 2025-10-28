@@ -1,0 +1,126 @@
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(120deg, #f2ecf7 5%, #e9d3f5 60%, #f2ecf7 90%);
+}
+
+
+
+.tela-centro {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titulo-main {
+  color: #520480;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-top: 40px;
+  margin-bottom: 24px;
+  letter-spacing: 0.5px;
+}
+
+.card-centro {
+  max-width: 480px;
+  width: 100%;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.12);
+  padding: 1.2rem 1.2rem 1.4rem 1.2rem;
+  margin-bottom: 24px;
+}
+
+.form-label {
+  font-weight: 600;
+  color: #520480;
+  font-size: 1.12rem;
+  margin-bottom: 0.4rem;
+}
+
+.bg-roxo {
+  background-color: #520480 !important;
+}
+.text-white {
+  color: #fff !important;
+}
+
+.form-select {
+  background-color: #f8f7fa;
+  border-radius: 8px !important;
+  border: 1px solid #ad70de;
+  padding: 10px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+.form-select:focus {
+  border-color: #520480;
+  box-shadow: 0 0 5px #52048033;
+}
+
+h2.fs-5 {
+  color: #520480;
+  font-weight: 700;
+  margin-top: 0.9rem;
+  margin-bottom: 0.4rem;
+  font-size: 1.1rem;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.table {
+  width: 100%;
+  box-shadow: 0 4px 12px #5204801a;
+  border-radius: 8px;
+  margin-bottom: 0;
+}
+.table thead th {
+  background: #520480 !important;
+  color: white !important;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 8px 10px;
+}
+.table tbody tr {
+  background-color: #faf6fd;
+}
+.table tbody tr:nth-child(even) {
+  background-color: #ebe1f5;
+}
+.table tbody td {
+  padding: 8px 10px;
+  color: #30123f;
+  font-size: 1rem;
+}
+
+.footer-fixo {
+  width: 100vw;
+  color: #520480;
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+  .card-centro {
+    padding: 0.6rem 0.6rem 1rem 0.6rem;
+    max-width: 97vw;
+    margin-bottom: 8px;
+  }
+  .titulo-main {
+    font-size: 1.15rem;
+    margin-top: 18px;
+    margin-bottom: 12px;
+  }
+  .footer-fixo {
+    font-size: 0.82rem;
+    margin-bottom: 8px;
+    margin-top: 6px;
+  }
+}
