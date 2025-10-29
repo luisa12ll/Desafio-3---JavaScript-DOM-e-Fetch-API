@@ -107,6 +107,8 @@ h2.fs-5 {
   margin-bottom: 20px;
 }
 
+
+
 @media (max-width: 600px) {
   .card-centro {
     padding: 0.6rem 0.6rem 1rem 0.6rem;
@@ -123,4 +125,47 @@ h2.fs-5 {
     margin-bottom: 8px;
     margin-top: 6px;
   }
+}
+
+.btn-outline-roxo {
+  color: #520480;
+  border-color: #520480;
+  background-color: transparent;
+  transition: background 0.2s, color 0.2s, border 0.2s;
+}
+.btn-outline-roxo:hover,
+.btn-outline-roxo:focus,
+.btn-outline-roxo:active {
+  color: #fff !important;
+  background-color: #520480 !important;
+  border-color: #520480 !important;
+  box-shadow: none;
+}
+
+.btn-outline-roxo:disabled,
+.btn-outline-roxo.disabled {
+  color: #bfa0d8;
+  background-color: #f6effd;
+  border-color: #e1c0fa;
+  opacity: 0.65;
+}
+button {
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+#btnAnterior:hover:not(:disabled),
+#btnProximo:hover:not(:disabled),
+#btnAnterior:focus:not(:disabled),
+#btnProximo:focus:not(:disabled) {
+  background-color: #520480 !important; /* roxo */
+  border-color: #520480 !important;
+  color: white !important;
+  outline: none;
+  box-shadow: none;
+}
+
+#btnAnterior:disabled,
+#btnProximo:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
 }

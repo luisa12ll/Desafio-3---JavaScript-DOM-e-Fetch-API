@@ -10,6 +10,7 @@
   <div class="tela-centro">
     <h1 class="text-center titulo-main">Desafio 3 - Municípios por UF</h1>
     <div class="card shadow card-centro">
+      <div id="mensagem" class="alert alert-warning text-center" style="display:none; font-size:0.95rem; padding: 6px 12px;"></div>
       <div class="mb-3">
         <label for="ufSelect" class="form-label fs-5">Selecione uma UF:</label>
         <select id="ufSelect" class="form-select">
@@ -26,10 +27,15 @@
           </thead>
           <tbody></tbody>
         </table>
+        <div id="paginacao" style="display:none; margin-top: 15px; text-align: center;">
+            <button id="btnAnterior" disabled>Anterior</button>
+            <span id="infoPagina" style="margin: 0 12px;"></span>
+             <button id="btnProximo" disabled>Próximo</button>
+        </div>
       </div>
     </div>
-    <p class="footer-fixo">© Copyright Luísa de Souza Ferreira - Treinee EngNet - 2025</p>
 
+    <p class="footer-fixo">© Copyright Luísa de Souza Ferreira - Treinee EngNet - 2025</p>
   </div>
   <script src="script.js"></script>
 </body>
