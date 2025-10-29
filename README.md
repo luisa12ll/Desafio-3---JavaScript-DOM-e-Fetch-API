@@ -26,7 +26,7 @@ Uma experiência prática usando:
 
 - 📋 Lista completa das UFs do Brasil no seletor (`<select>`)
 - 🏘️ Exibição automática dos municípios da UF selecionada em uma tabela
-- 🧹 Tabela limpa e vazia até a escolha da UF
+- 🧹 Não apresenta a tabela até a escolha da UF
 
 ---
 
