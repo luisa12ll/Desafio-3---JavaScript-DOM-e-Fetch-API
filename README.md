@@ -41,8 +41,7 @@ Uma experiência prática usando:
 
 ## 🎨 Design
 
-O design oficial está disponível no Figma, para referência:  
-[🎨 Layout no Figma](https://www.figma.com/file/xJGTYOuvNS3iuLr1meqx5u/Entrega-3?type=design&node-id=0%3A1)
+O design oficial utilizado como base está disponível no Figma. [🎨 Layout no Figma](https://www.figma.com/file/xJGTYOuvNS3iuLr1meqx5u/Entrega-3?type=design&node-id=0%3A1)
 
 ---
 
