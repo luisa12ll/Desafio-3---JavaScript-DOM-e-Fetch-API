@@ -4,7 +4,7 @@
 
 <div align="center">
 
-![Status](https://img.shields.io/badge/Status-Desenvolvimento-yellow?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Finalizado-green?style=flat-square)
 ![Tipo](https://img.shields.io/badge/Tipo-JavaScript%20%7C%20Frontend-blue?style=flat-square&logo=javascript)
 
 </div>
